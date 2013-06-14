@@ -1,6 +1,6 @@
 # MainSMS API Yii wrapper
+[MainSMS.ru site](http://mainsms.ru)<br>
 **Notice**: This extension was created by me for my own usages. I just share my code, but you can improve this extension by fork, if you want. This extension only on GitHub.
- 
 ## Installation
 Just follow some steps:
 
@@ -11,18 +11,12 @@ cp mainsms your-site-folder/protected/extensions
 ```
 ### Step 2: Setup main.php
 Add some lines to your `protected/config/main.php` file(optional):
-**At the start:**
-```php
-Yii::setPathOfAlias('mainsms', dirname(__FILE__).'/../extensions/mainsms');
-```
-**In components array**
 ```php
 // Application components
 components => array(
     ...
     'mainsms' => array(
-        'class' => 'mainsms.MainSms',
-        // or 'class' =>'ext.mainsms.MainSms'
+        'class' =>'ext.mainsms.MainSms'
         // if you don't want to use alias.
         'projectName' => 'Your app name',
         'apiKey' => 'your secret api key',
