@@ -10,7 +10,7 @@ Copy `mainsms` folder to `protected/extensions`:
 cp mainsms your-site-folder/protected/extensions
 ```
 ### Step 2: Setup main.php
-Add some lines to your `protected/config/main.php` file(optional):
+Add some lines to your `protected/config/main.php` file:
 ```php
 // Application components
 components => array(
