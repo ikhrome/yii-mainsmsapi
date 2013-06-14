@@ -1,6 +1,11 @@
 # MainSMS API Yii wrapper
 [MainSMS.ru site](http://mainsms.ru)<br>
 **Notice**: This extension was created by me for my own usages. I just share my code, but you can improve this extension by fork, if you want. This extension only on GitHub.
+
+## Requirements
+PHP >= 5.3.0<br>
+cURL
+
 ## Installation
 Just follow some steps:
 
