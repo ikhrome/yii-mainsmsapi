@@ -17,7 +17,6 @@ components => array(
     ...
     'mainsms' => array(
         'class' =>'ext.mainsms.MainSms'
-        // if you don't want to use alias.
         'projectName' => 'Your app name',
         'apiKey' => 'your secret api key',
         // optional:
