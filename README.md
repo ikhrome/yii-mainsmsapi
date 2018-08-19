@@ -1,4 +1,4 @@
-# MainSMS API Yii wrapper
+# [old] MainSMS API Yii wrapper
 [MainSMS.ru site](http://mainsms.ru)<br>
 **Notice**: This extension was created by me for my own usages. I just share my code, but you can improve this extension by fork, if you want. This extension only on GitHub.
 
